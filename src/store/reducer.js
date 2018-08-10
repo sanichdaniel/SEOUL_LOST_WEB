@@ -10,6 +10,8 @@ import ProfileReducer from '../components/pages/ProfilePage/reducer';
 import InterestReducer from '../components/pages/InterestPage/reducer';
 import EditReducer from '../components/pages/EditPage/reducer';
 import AlarmReducer from '../components/pages/AlarmPage/reducer';
+import GoogleMapReducer from '../components/pages/GoogleMapPage/reducer';
+import NewLostReducer from '../components/pages/NewLostPage/reducer';
 
 const reducers = {
   routing,
@@ -23,6 +25,8 @@ const reducers = {
   InterestReducer,
   EditReducer,
   AlarmReducer,
+  GoogleMapReducer,
+  NewLostReducer,
 };
 
 const req = require.context('.', true, /\.\/.+\/reducer\.js$/);

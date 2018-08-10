@@ -174,6 +174,7 @@ const mapStateToProps = createStructuredSelector({
   transaction: makeSelectTransaction(),
 
 });
+
 const mapDispatchToProps = (dispatch) => bindActionCreators({
   updateProfile: Actions.newProfileRequest,
   callTransaction: Actions.newTransactionRequest,

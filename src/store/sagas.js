@@ -8,6 +8,8 @@ import ProfileSaga from '../components/pages/ProfilePage/saga';
 import InterestSaga from '../components/pages/InterestPage/saga';
 import EditSaga from '../components/pages/EditPage/saga';
 import AlarmSaga from '../components/pages/AlarmPage/saga';
+import GoogleMapSaga from '../components/pages/GoogleMapPage/saga';
+import NewLostSaga from '../components/pages/NewLostPage/saga'
 
 const req = require.context('.', true, /\.\/.+\/sagas\.js$/);
 
@@ -21,6 +23,8 @@ const sagas = [
   ...InterestSaga,
   ...EditSaga,
   ...AlarmSaga,
+  ...GoogleMapSaga,
+  ...NewLostSaga,
 ];
 
 req.keys().forEach((key) => {

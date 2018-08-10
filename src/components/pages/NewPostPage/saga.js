@@ -11,7 +11,7 @@ export function* newPost({ contentType, data }) {
   try {
     const response = yield api.post(`transaction/${contentType}`, data, { isFormData: true });
     yield put(Actions.newPostSuccess(response));
-    window.location.replace('/');
+    //window.location.replace('/');
   } catch (error) {
     yield put(Actions.newPostFailure(error.response));
   }

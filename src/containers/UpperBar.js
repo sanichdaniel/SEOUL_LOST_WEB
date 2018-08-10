@@ -51,7 +51,7 @@ class UpperBar extends React.Component <Props, State> {
         >
           <Container>
           <NavbarBrand href="/">
-            <b>SNU-USEDBOOK</b>
+            <b>SEOUL-LOST</b>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

@@ -77,9 +77,9 @@ class NewPostPage extends React.Component <Props, State> {
       alert(error);
       return;
     }
+
     const formData = new FormData();
     const data = _.omit(this.state, ['bookSelected', 'imagePreviewUrl', 'contentType']);
-
     for (const key in data) {
       formData.append(key, data[key]);
     }
