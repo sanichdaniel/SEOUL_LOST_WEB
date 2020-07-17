@@ -84,7 +84,7 @@
     "google-maps-react": "^2.0.2",
     "history": "3.0.0",
     "jest": "^23.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "moment": "^2.22.1",
     "normalizr": "^3.0.1",
     "qs": "^6.5.2",
