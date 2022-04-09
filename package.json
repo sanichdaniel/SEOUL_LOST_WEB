@@ -85,7 +85,7 @@
     "history": "3.0.0",
     "jest": "^23.1.0",
     "lodash": "^4.17.4",
-    "moment": "^2.22.1",
+    "moment": "^2.29.2",
     "normalizr": "^3.0.1",
     "qs": "^6.5.2",
     "query-string": "^4.3.2",
